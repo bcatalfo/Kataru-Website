@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #e74c3c;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+section {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#video a {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#features li {
+    margin: 1rem 0;
+}
+
+#downloads .button {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#downloads .android {
+    background-color: #e74c3c;
+}
+
+#downloads .ios {
+    background-color: #e74c3c;
+}
+
+footer {
+    background-color: #e74c3c;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
