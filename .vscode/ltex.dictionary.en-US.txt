@@ -6,3 +6,5 @@ href
 Catalfo
 ios
 TODO
+crossorigin
+preconnect
